@@ -12,6 +12,7 @@ public class Tanque
     public int getVida(){
         return this.vida;
     }
-    
-    
+     public String toString(){
+        return "vida: "+this.vida+" referencia: "+this.referencia;
+     }
 }
